@@ -71,3 +71,10 @@ header .btn-contato button{
 header .btn-contato button:hover {
     box-shadow: 0px 0px 8px var(--shadow-dark-purple)
 }
+
+
+/* Formatando a seção principal
+--------------------------------*/
+.main-container {
+    
+}
