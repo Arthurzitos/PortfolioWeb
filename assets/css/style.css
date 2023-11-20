@@ -45,6 +45,17 @@ body {
     transform: scale(1.05);
 }
 
+h2.titulo {
+    color: var(--light-text-color);
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.titulo span {
+    color: var(--dark-purple);
+}
+
 /* Formatando Header
 ---------------------*/
 header {
@@ -112,7 +123,6 @@ section.topo-do-site .flex {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-
 @keyframes flutuar {
     0% {
         top: 0;
@@ -120,4 +130,37 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
+}
+
+/* Especialidades
+------------------*/
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 45px;
+    transition: .2s;
+    color: var(--light-text-color);
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--dark-text-color);
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color:var(--dark-purple);
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 26px;
+    margin: 15px 0;
 }
