@@ -208,3 +208,19 @@ section.sobre .flex {
     margin: 0 5px;
     transition: .2s;
 }
+
+/* Formatando Sessão de Projetos
+---------------------------------*/
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px var(--dark-text-color);
+}
+
+section.portfolio .flex {
+    justify-content: space-between;
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+}
